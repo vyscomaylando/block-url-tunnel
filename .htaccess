@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^google=kamartoto|google=lapak77$
+RewriteRule ^$ - [F,L]
